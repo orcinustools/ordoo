@@ -1,0 +1,23 @@
+[package]
+
+name = "ordoo"
+version = "0.1.0"
+authors = ["imamdigmi <imam.digmi@gmail.com>"]
+license = "MIT"
+
+[dependencies]
+flate2 = "0.2"
+hyperlocal = "0.3"
+log = "0.3"
+jed = "0.1"
+openssl = "0.9"
+hyper = "0.10"
+hyper-openssl = "0.2"
+rustc-serialize = "0.3"
+tar = "0.3"
+url = "0.5"
+iron = "*"
+router = "*"
+
+[dev-dependencies]
+env_logger = "0.4.0"
