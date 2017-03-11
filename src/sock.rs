@@ -39,6 +39,10 @@ impl Docker {
         self.new.get("/images/json")
     }
 
+    pub fn containers(&self) -> String {
+        self.new.get("/containers/json")
+    }
+
     pub fn nodes(&self) -> String {
         self.new.get("/nodes/json")
     }

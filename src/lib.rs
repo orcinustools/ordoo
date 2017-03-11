@@ -25,6 +25,12 @@ fn images() {
 }
 
 #[test]
+fn containers() {
+    let docker = sock::Docker::new();
+    docker.containers();
+}
+
+#[test]
 fn nodes() {
     let docker = sock::Docker::new();
     docker.nodes();
