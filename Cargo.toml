@@ -7,12 +7,7 @@ authors = ["imamdigmi <imam.digmi@gmail.com>"]
 hyper = "0.10"
 hyperlocal = "0.3.0"
 rustc-serialize = "0.3"
-pencil = "*"
 
 [lib]
 name = "ordoo"
 path = "src/lib.rs"
-
-[[bin]]
-name = "ordoo"
-path = "src/bin.rs"
